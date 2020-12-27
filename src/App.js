@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+// import BaiTap1 from './baiTap1';
+import BaiTap2 from './baiTap2';
+// đặt tên là index thì hệ thống tự nhận diện, ko cần phải gõ "/index"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <BaiTap1/> */}
+      <BaiTap2/>
     </div>
   );
 }
